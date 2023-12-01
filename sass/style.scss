@@ -1,6 +1,6 @@
 /* Variables */
 $color_one: #ffffff;
-$color_two: gold;
+$color_two: #33d9b2;
 $color_three: #ff5252;
 $color_four: #ffffff;
 $color_five: #2c2c54;
@@ -139,7 +139,7 @@ body {
 }
 /* Variables */
 $color_one: #0097e6;
-$color_two: #33d9b2;
+$color_two: #43d99c;
 $color_three: #ff5252;
 $color_four: #ffffff;
 $color_five: #2c2c54;
@@ -212,10 +212,17 @@ section {
   border: 3px solid black;
   display: inline-block;
   padding: 0 5px;
-  line-height: 0.8;
+  line-height: 0.9;
 
   &.second-title {
     border: none;
+  }
+}
+
+.yt_classes{
+  background-color: $color_two;
+  iframe{
+    border-radius: 5%;
   }
 }
 
