@@ -6,6 +6,12 @@ $color_four: #ffffff;
 $color_five: #2c2c54;
 $color_six: #ff6b6b;
 
+
+$font_one: 'Inconsolata', monospace;
+$font_two: 'Signika', sans-serif;
+
+$transition: all 1s;
+
 $font_one: 'Inconsolata', monospace;
 $font_two: 'Signika', sans-serif;
 
@@ -137,18 +143,7 @@ body {
     }
   }
 }
-/* Variables */
-$color_one: #0097e6;
-$color_two: #43d99c;
-$color_three: #ff5252;
-$color_four: #ffffff;
-$color_five: #2c2c54;
-$color_six: #ff6b6b;
 
-$font_one: 'Inconsolata', monospace;
-$font_two: 'Signika', sans-serif;
-
-$transition: all 1s;
 
 /* Global */
 
@@ -224,6 +219,15 @@ section {
   iframe{
     border-radius: 5%;
   }
+}
+.fb_classes{
+
+    iframe{
+      border: solid darkgrey 1px;
+      border-radius: 5%;
+
+  }
+
 }
 
 .services-wrapper {
