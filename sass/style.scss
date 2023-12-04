@@ -199,6 +199,21 @@ section {
   background-image: linear-gradient(90deg, $color_four 50%, transparent 50%);
 }
 
+/* Carousel */
+.carousel-inner{
+  .carousel-item{
+    max-height: 75vh;
+    position: relative;
+  img{
+    height: 10%;
+    object-fit: cover;
+    object-position: center;
+
+  }
+
+  }
+}
+
 /* Sections */
 
 .section-title {
@@ -283,13 +298,13 @@ section {
 }
 
 .btn-four {
-  border-color: $color_one;
-  color: $color_one;
-  background-image: linear-gradient(90deg, $color_one 50%, transparent 50%);
+  border-color: $color_five;
+  color: $color_five;
+  background-image: linear-gradient(90deg, $color_five 50%, transparent 50%);
 
   &:hover {
     background-position: 0 100%;
-    color: $color_four;
+    color: $color_one;
   }
 }
 
